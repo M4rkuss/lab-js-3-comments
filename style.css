@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'AppleSystemUIFont', sans-serif;
+}
+
+body {
+    background: #f8e7e7;
+}
+
+.main-wrap {
+    padding: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+.form-block {
+    width: 400px;
+}
+
+.form-block h2 {
+    margin-bottom: 10px;
+}
+
+#inputName {
+    padding: 10px;
+}
+
+#name, #date {
+    margin-bottom: 10px;
+}
+
+.form-block label input, .form-block label textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-block label textarea {
+    height: 150px;
+    padding: 10px;
+}
+
+.form-block label:nth-child(2), .form-block label:nth-child(2) textarea {
+    display: block;
+}
+
+.form-block input:nth-child(3), .form-block input:nth-child(4) {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
