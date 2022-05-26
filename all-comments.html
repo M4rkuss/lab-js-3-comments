@@ -7,20 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>All comments</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            padding: 50px;
+        }
+    </style>
 </head>
 <body>
 
 
-
 <script>
-  let obj = {
-
-  }
+  var obj;
   if (obj !== 'undefined') {
     for (let key of obj) {
-      document.write(`<h2>${key.name}</h2><p>${key.date}</p><p>${key.comment}</p><hr>`)
+      document.write(`<h2>${key.name}</h2><p>${key.date}</p><p>${key.comment}</p><hr>`);
     }
-  } else document.write("You didn't write any comments :(")
+  } else document.write("You didn't write any comments :(");
 </script>
 </body>
 </html>

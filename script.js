@@ -18,5 +18,6 @@ document.getElementById('btnOk').addEventListener('click', function () {
 })
 
 document.getElementById('BtnShowAll').addEventListener('click', function () {
-  window.open('all-comments.html', '_blank')
+  let newWindow = window.open('all-comments.html', '_blank');
+  newWindow.obj = comments;
 })
